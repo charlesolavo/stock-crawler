@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: web-stock-deployment
+spec:
+  selector:
+    matchLabels:
+      app: web-stock
+  template:
+    metadata:
+      labels:
+        app: web-stock
+    spec:
+      containers:
+      - name: web-stock
+        image: fabricioveronez/web-stock:v1
+        ports:
+        - containerPort: 5000
