@@ -32,7 +32,7 @@ RUN set -x \
 && curl -sSL "https://dl.google.com/linux/direct/google-talkplugin_current_amd64.deb" -o /tmp/google-talkplugin-amd64.deb \
 && dpkg -i /tmp/google-talkplugin-amd64.deb \
 && mkdir \opt\selenium \
-&& curl -sSL "https://chromedriver.storage.googleapis.com/79.0.3945.36/chromedriver_linux64.zip" -o /tmp/chromedriver.zip \
+&& curl -sSL "https://chromedriver.storage.googleapis.com/88.0.4324.96/chromedriver_linux64.zip" -o /tmp/chromedriver.zip \
 && unzip -o /tmp/chromedriver -d /opt/selenium/ \
 && rm -rf /tmp/*.deb 
 #&& apt-get purge -y --auto-remove curl unzip

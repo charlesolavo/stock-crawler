@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crawler.Pages", "Crawler.Pages\Crawler.Pages.csproj", "{2E9A0BE2-2F5E-4A05-9F88-AC465A56EED6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Crawler.Pages", "Crawler.Pages\Crawler.Pages.csproj", "{2E9A0BE2-2F5E-4A05-9F88-AC465A56EED6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crawler.Console", "Crawler.Console\Crawler.Console.csproj", "{E1390816-2092-40A4-A4DE-032CA05B892F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Crawler.Console", "Crawler.Console\Crawler.Console.csproj", "{E1390816-2092-40A4-A4DE-032CA05B892F}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{146C9E84-1D2B-4003-995A-F5AA39122464}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +43,18 @@ Global
 		{E1390816-2092-40A4-A4DE-032CA05B892F}.Release|x64.Build.0 = Release|Any CPU
 		{E1390816-2092-40A4-A4DE-032CA05B892F}.Release|x86.ActiveCfg = Release|Any CPU
 		{E1390816-2092-40A4-A4DE-032CA05B892F}.Release|x86.Build.0 = Release|Any CPU
+		{146C9E84-1D2B-4003-995A-F5AA39122464}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{146C9E84-1D2B-4003-995A-F5AA39122464}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{146C9E84-1D2B-4003-995A-F5AA39122464}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{146C9E84-1D2B-4003-995A-F5AA39122464}.Debug|x64.Build.0 = Debug|Any CPU
+		{146C9E84-1D2B-4003-995A-F5AA39122464}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{146C9E84-1D2B-4003-995A-F5AA39122464}.Debug|x86.Build.0 = Debug|Any CPU
+		{146C9E84-1D2B-4003-995A-F5AA39122464}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{146C9E84-1D2B-4003-995A-F5AA39122464}.Release|Any CPU.Build.0 = Release|Any CPU
+		{146C9E84-1D2B-4003-995A-F5AA39122464}.Release|x64.ActiveCfg = Release|Any CPU
+		{146C9E84-1D2B-4003-995A-F5AA39122464}.Release|x64.Build.0 = Release|Any CPU
+		{146C9E84-1D2B-4003-995A-F5AA39122464}.Release|x86.ActiveCfg = Release|Any CPU
+		{146C9E84-1D2B-4003-995A-F5AA39122464}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

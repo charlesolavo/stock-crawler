@@ -14,6 +14,7 @@ namespace Crawler.Pages
                 options.AddArgument("--headless");
 
             options.AddArgument("--no-sandbox");
+            options.AddArgument("--allowed-ips=0.0.0.0");
 
             webDriver = new ChromeDriver(pathDriver, options);
 

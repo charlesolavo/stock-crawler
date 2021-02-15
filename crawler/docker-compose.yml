@@ -1,0 +1,26 @@
+version: '3.4'
+
+services:
+  crawler.console:
+    image: ${DOCKER_REGISTRY-}crawlerconsole
+    build:
+      context: .
+      dockerfile: Crawler.Console/Dockerfile
+    environment:
+     WEB_DRIVER_DIRECTORY: /opt/selenium
+     PAGE_URL: "http://crawlerweb:5000"
+    networks:
+      - stock-crawler  
+    depends_on:
+      - crawlerweb
+
+  crawlerweb:
+    image: fabricioveronez/web-stock:v1    
+    networks:
+      - stock-crawler
+    ports:
+      - "5000:5000"
+
+networks: 
+  stock-crawler: 
+    driver: bridge    
