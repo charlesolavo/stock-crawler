@@ -1,7 +1,7 @@
 apiVersion: batch/v1
 kind: Job
 metadata:
-  name: stock-crawler
+  name: stock-crawler-job
 spec:
   template:
     spec:
@@ -16,4 +16,3 @@ spec:
             value: http://web-stock-service:80
       restartPolicy: Never
   backoffLimit: 4
-
